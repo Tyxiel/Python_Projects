@@ -32,7 +32,9 @@ while True:
     elif plyr == 3:
         time.sleep(0.5)
         print('Você jogou\033[1;35m TESOURA\033[m')
-
+    else:
+        print('\033[1;31mOpção inválida!\033[m')
+        continue
     # Condições Máquina
 
     if pc == 1:
@@ -44,7 +46,7 @@ while True:
     elif pc == 3:
         time.sleep(0.5)
         print('A máquina jogou\033[1;35m TESOURA\033[m')
-
+        
     # Condições Jogo
 
     if plyr == pc:
