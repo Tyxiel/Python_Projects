@@ -35,6 +35,7 @@ while True:
     else:
         print('\033[1;31mOpção inválida!\033[m')
         continue
+        
     # Condições Máquina
 
     if pc == 1:
